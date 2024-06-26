@@ -1,0 +1,27 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .rotate {
+    animation: slide 0.5s forwards;
+  }
+  
+  .relative {
+    position: relative;
+    width: 100%;
+  }
+  
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  
+  
+  
