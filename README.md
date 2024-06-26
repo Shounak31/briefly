@@ -68,14 +68,6 @@ A full-stack URL shortener application built with Node.js, Express, MongoDB, and
     npm start
     ```
 
-## Usage
-
-Open your browser and navigate to:
-
-```arduino
-http://localhost:3000
-```
-
 Enter a long URL in the input box and click the "Shorten" button.
 
 Copy the generated short URL and paste it into a new browser tab to test the redirection.
